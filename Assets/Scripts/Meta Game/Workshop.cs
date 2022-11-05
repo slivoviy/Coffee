@@ -1,5 +1,4 @@
-﻿using System.Collections.Generic;
-using TMPro;
+﻿using TMPro;
 using UI;
 using UnityEngine;
 using UnityEngine.UI;
@@ -27,12 +26,12 @@ namespace Meta_Game {
         
             var x = 0;
             foreach (var item in allItems) {
-                if (PlayerPrefs.GetInt(item.itemName + "_cur", 0) == 1) {
-                    currentItems[x] = item;
-                    item.button.gameObject.SetActive(false);
-                    item.priceText.gameObject.SetActive(false);
-                    x++;
-                }
+                if (PlayerPrefs.GetInt(item.itemName + "_cur", 0) != 1) continue;
+                
+                currentItems[x] = item;
+                item.button.gameObject.SetActive(false);
+                item.priceText.gameObject.SetActive(false);
+                x++;
             }
         
         
