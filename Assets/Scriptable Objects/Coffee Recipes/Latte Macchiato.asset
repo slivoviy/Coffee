@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 61d4655be919f824f9146832cd729b0f, type: 3}
+  m_Name: Latte Macchiato
+  m_EditorClassIdentifier: 
+  name: Latte Macchiato
+  liquids:
+  - {fileID: 2100000, guid: 81d43c2a9f13bf34f8fa5ba0ef40f30d, type: 2}
+  - {fileID: 2100000, guid: 665ebb335034c714085ca07e7001eec7, type: 2}
+  - {fileID: 2100000, guid: 64c408715d6cc24418ea0d751905e0bd, type: 2}
+  proportions:
+  - -0.261
+  - 1.5131
+  - 2.1
