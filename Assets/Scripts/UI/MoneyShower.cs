@@ -17,8 +17,8 @@ namespace UI {
             moneyText.text = "<sprite=0> " + PlayerPrefs.GetInt("money", 0);
         }
 
-        public bool EnoughMoney() {
-            return PlayerPrefs.GetInt("money", 0) > 1500;
+        public static bool EnoughMoney() {
+            return PlayerPrefs.GetInt("money", 0) >= 1500;
         }
     }
 }

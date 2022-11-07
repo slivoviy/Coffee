@@ -6,9 +6,9 @@ namespace Meta_Game {
         public GameObject priceText;
         public Button button;
         public int category;
-        public  string itemName;
+        public string itemName;
         
-        [HideInInspector]
+        // [HideInInspector]
         public bool bought;
 
     }

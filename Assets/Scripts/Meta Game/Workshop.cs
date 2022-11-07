@@ -12,7 +12,7 @@ namespace Meta_Game {
         [SerializeField] private AudioSource purchaseSound;
         [SerializeField] private GameObject workshopButton;
 
-        public InteriorItem[] allItems;
+        [SerializeField] private InteriorItem[] allItems;
         
         private InteriorItem[] currentItems;
 
@@ -46,6 +46,8 @@ namespace Meta_Game {
             PlayerPrefs.SetInt("money", PlayerPrefs.GetInt("money", 0) + 5000);
 
             for (var i = 0; i < 22; i += 2) {
+                if (i == 10) ++i;
+                
                 PlayerPrefs.SetInt(allItems[i].itemName, 1);
                 PlayerPrefs.SetInt(allItems[i].itemName + "_cur", 1);
                 allItems[i].bought = true;
@@ -56,11 +58,13 @@ namespace Meta_Game {
 
         private void InitializeBoughtItems() {
             foreach (var t in allItems) {
-                if (t.bought) {
+                if (PlayerPrefs.GetInt(t.itemName, 0) == 1) {
+                    t.bought = true;
                     t.priceText.SetActive(false);
                     t.button.GetComponentInChildren<Text>().text = "Choose";
                 }
                 else {
+                    t.bought = false;
                     t.priceText.SetActive(true);
                     t.button.GetComponentInChildren<Text>().text = "Buy";
                 }
@@ -74,43 +78,38 @@ namespace Meta_Game {
         }
 
         public void ChooseInteriorItem(int index) {
-            if (allItems[index].bought) {
-                var newItem = allItems[index];
+            if (!allItems[index].bought) return;
+            
+            var newItem = allItems[index];
 
-                var oldItem = currentItems[newItem.category];
-                oldItem.gameObject.SetActive(false);
-                currentItems[oldItem.category].button.gameObject.SetActive(true);
-                PlayerPrefs.SetInt(oldItem.itemName + "_cur", 0);
+            var oldItem = currentItems[newItem.category];
+            oldItem.gameObject.SetActive(false);
+            currentItems[oldItem.category].button.gameObject.SetActive(true);
+            PlayerPrefs.SetInt(oldItem.itemName + "_cur", 0);
 
-                newItem.gameObject.SetActive(true);
-                allItems[index].button.gameObject.SetActive(false);
+            newItem.gameObject.SetActive(true);
+            allItems[index].button.gameObject.SetActive(false);
 
-                PlayerPrefs.SetInt(newItem.itemName + "_cur", 1);
-                currentItems[newItem.category] = newItem;
-            }
+            PlayerPrefs.SetInt(newItem.itemName + "_cur", 1);
+            currentItems[newItem.category] = newItem;
         }
 
         public void BuyInteriorItem(int index) {
-            if (!allItems[index].bought && money.EnoughMoney()) {
-                allItems[index].bought = true;
+            if (allItems[index].bought || !MoneyShower.EnoughMoney()) return;
+            
+            allItems[index].bought = true;
 
-                var item = allItems[index];
-                PlayerPrefs.SetInt(item.itemName, 1);
-                allItems[index].priceText.SetActive(false);
-                allItems[index].button.GetComponentInChildren<Text>().text = "Choose";
+            var item = allItems[index];
+            PlayerPrefs.SetInt(item.itemName, 1);
+            allItems[index].priceText.SetActive(false);
+            allItems[index].button.GetComponentInChildren<Text>().text = "Choose";
 
-                purchaseSound.Play();
-                money.UpdateMoney(-1500);
-            }
+            purchaseSound.Play();
+            money.UpdateMoney(-1500);
         }
 
         public void OpenWorkshop() {
-            if (gameObject.activeInHierarchy) {
-                gameObject.SetActive(false);
-            }
-            else {
-                gameObject.SetActive(true);
-            }
+            gameObject.SetActive(!gameObject.activeInHierarchy);
         }
 
         public void OpenInteriorShopPanel(int index) {

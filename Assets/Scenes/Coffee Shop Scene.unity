@@ -4765,17 +4765,27 @@ PrefabInstance:
     - target: {fileID: 1175020403353143435, guid: 602bb4b160420c74895179eba069b972,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
-      value: BuyInteriorItem
+      value: ChooseInteriorItem
+      objectReference: {fileID: 0}
+    - target: {fileID: 1175020403353143435, guid: 602bb4b160420c74895179eba069b972,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: Meta_Game.Workshop, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 1175020403353143435, guid: 602bb4b160420c74895179eba069b972,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
+      value: Meta_Game.Workshop, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 1175020403353143435, guid: 602bb4b160420c74895179eba069b972,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_IntArgument
-      value: 14
+      value: 15
       objectReference: {fileID: 0}
     - target: {fileID: 1175020403353143435, guid: 602bb4b160420c74895179eba069b972,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_IntArgument
-      value: 14
+      value: 15
       objectReference: {fileID: 0}
     - target: {fileID: 1175020403353143435, guid: 602bb4b160420c74895179eba069b972,
         type: 3}
@@ -5759,13 +5769,23 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1175020403353143435, guid: 602bb4b160420c74895179eba069b972,
         type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: Meta_Game.Workshop, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 1175020403353143435, guid: 602bb4b160420c74895179eba069b972,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
+      value: Meta_Game.Workshop, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 1175020403353143435, guid: 602bb4b160420c74895179eba069b972,
+        type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_IntArgument
-      value: 15
+      value: 16
       objectReference: {fileID: 0}
     - target: {fileID: 1175020403353143435, guid: 602bb4b160420c74895179eba069b972,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_IntArgument
-      value: 15
+      value: 16
       objectReference: {fileID: 0}
     - target: {fileID: 1175020403353143435, guid: 602bb4b160420c74895179eba069b972,
         type: 3}
@@ -6114,6 +6134,18 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 312902282}
   m_Mesh: {fileID: 4768332190204959006, guid: af85dd04e91a6954b969380782348751, type: 3}
+--- !u!114 &313861579 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 1175020403353143435, guid: 602bb4b160420c74895179eba069b972,
+    type: 3}
+  m_PrefabInstance: {fileID: 410555816}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &314949248
 GameObject:
   m_ObjectHideFlags: 0
@@ -6734,10 +6766,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c9f0a0c545e441648beb966cb6e2ef1a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  priceText: {fileID: 618548672}
-  button: {fileID: 1370158861}
+  priceText: {fileID: 2029532846}
+  button: {fileID: 313861579}
   category: 5
-  itemName: barch2
+  itemName: barch3
   bought: 0
 --- !u!1 &349017526
 GameObject:
@@ -7797,13 +7829,23 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1175020403353143435, guid: 602bb4b160420c74895179eba069b972,
         type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: Meta_Game.Workshop, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 1175020403353143435, guid: 602bb4b160420c74895179eba069b972,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
+      value: Meta_Game.Workshop, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 1175020403353143435, guid: 602bb4b160420c74895179eba069b972,
+        type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_IntArgument
-      value: 16
+      value: 17
       objectReference: {fileID: 0}
     - target: {fileID: 1175020403353143435, guid: 602bb4b160420c74895179eba069b972,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_IntArgument
-      value: 16
+      value: 17
       objectReference: {fileID: 0}
     - target: {fileID: 1175020403353143435, guid: 602bb4b160420c74895179eba069b972,
         type: 3}
@@ -8248,13 +8290,23 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1175020403353143435, guid: 602bb4b160420c74895179eba069b972,
         type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: Meta_Game.Workshop, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 1175020403353143435, guid: 602bb4b160420c74895179eba069b972,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
+      value: Meta_Game.Workshop, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 1175020403353143435, guid: 602bb4b160420c74895179eba069b972,
+        type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_IntArgument
-      value: 13
+      value: 12
       objectReference: {fileID: 0}
     - target: {fileID: 1175020403353143435, guid: 602bb4b160420c74895179eba069b972,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_IntArgument
-      value: 13
+      value: 12
       objectReference: {fileID: 0}
     - target: {fileID: 1175020403353143435, guid: 602bb4b160420c74895179eba069b972,
         type: 3}
@@ -8671,6 +8723,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
       value: ChooseInteriorItem
+      objectReference: {fileID: 0}
+    - target: {fileID: 1175020403353143435, guid: 602bb4b160420c74895179eba069b972,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: Meta_Game.Workshop, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 1175020403353143435, guid: 602bb4b160420c74895179eba069b972,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
+      value: Meta_Game.Workshop, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 1175020403353143435, guid: 602bb4b160420c74895179eba069b972,
         type: 3}
@@ -9745,6 +9807,16 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1175020403353143435, guid: 602bb4b160420c74895179eba069b972,
         type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: Meta_Game.Workshop, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 1175020403353143435, guid: 602bb4b160420c74895179eba069b972,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
+      value: Meta_Game.Workshop, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 1175020403353143435, guid: 602bb4b160420c74895179eba069b972,
+        type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_IntArgument
       value: 7
       objectReference: {fileID: 0}
@@ -9976,13 +10048,23 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1175020403353143435, guid: 602bb4b160420c74895179eba069b972,
         type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: Meta_Game.Workshop, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 1175020403353143435, guid: 602bb4b160420c74895179eba069b972,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
+      value: Meta_Game.Workshop, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 1175020403353143435, guid: 602bb4b160420c74895179eba069b972,
+        type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_IntArgument
-      value: 19
+      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 1175020403353143435, guid: 602bb4b160420c74895179eba069b972,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_IntArgument
-      value: 19
+      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 1175020403353143435, guid: 602bb4b160420c74895179eba069b972,
         type: 3}
@@ -10634,13 +10716,23 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1175020403353143435, guid: 602bb4b160420c74895179eba069b972,
         type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: Meta_Game.Workshop, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 1175020403353143435, guid: 602bb4b160420c74895179eba069b972,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
+      value: Meta_Game.Workshop, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 1175020403353143435, guid: 602bb4b160420c74895179eba069b972,
+        type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_IntArgument
-      value: 17
+      value: 18
       objectReference: {fileID: 0}
     - target: {fileID: 1175020403353143435, guid: 602bb4b160420c74895179eba069b972,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_IntArgument
-      value: 17
+      value: 18
       objectReference: {fileID: 0}
     - target: {fileID: 1175020403353143435, guid: 602bb4b160420c74895179eba069b972,
         type: 3}
@@ -11956,13 +12048,23 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1175020403353143435, guid: 602bb4b160420c74895179eba069b972,
         type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: Meta_Game.Workshop, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 1175020403353143435, guid: 602bb4b160420c74895179eba069b972,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
+      value: Meta_Game.Workshop, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 1175020403353143435, guid: 602bb4b160420c74895179eba069b972,
+        type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_IntArgument
-      value: 12
+      value: 13
       objectReference: {fileID: 0}
     - target: {fileID: 1175020403353143435, guid: 602bb4b160420c74895179eba069b972,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_IntArgument
-      value: 12
+      value: 13
       objectReference: {fileID: 0}
     - target: {fileID: 1175020403353143435, guid: 602bb4b160420c74895179eba069b972,
         type: 3}
@@ -13679,6 +13781,16 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1175020403353143435, guid: 602bb4b160420c74895179eba069b972,
         type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: Meta_Game.Workshop, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 1175020403353143435, guid: 602bb4b160420c74895179eba069b972,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
+      value: Meta_Game.Workshop, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 1175020403353143435, guid: 602bb4b160420c74895179eba069b972,
+        type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_IntArgument
       value: 5
       objectReference: {fileID: 0}
@@ -14897,13 +15009,23 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1175020403353143435, guid: 602bb4b160420c74895179eba069b972,
         type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: Meta_Game.Workshop, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 1175020403353143435, guid: 602bb4b160420c74895179eba069b972,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
+      value: Meta_Game.Workshop, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 1175020403353143435, guid: 602bb4b160420c74895179eba069b972,
+        type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_IntArgument
-      value: 20
+      value: 21
       objectReference: {fileID: 0}
     - target: {fileID: 1175020403353143435, guid: 602bb4b160420c74895179eba069b972,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_IntArgument
-      value: 20
+      value: 21
       objectReference: {fileID: 0}
     - target: {fileID: 1175020403353143435, guid: 602bb4b160420c74895179eba069b972,
         type: 3}
@@ -16214,6 +16336,16 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1175020403353143435, guid: 602bb4b160420c74895179eba069b972,
         type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: Meta_Game.Workshop, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 1175020403353143435, guid: 602bb4b160420c74895179eba069b972,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
+      value: Meta_Game.Workshop, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 1175020403353143435, guid: 602bb4b160420c74895179eba069b972,
+        type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_IntArgument
       value: 2
       objectReference: {fileID: 0}
@@ -16524,13 +16656,23 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1175020403353143435, guid: 602bb4b160420c74895179eba069b972,
         type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: Meta_Game.Workshop, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 1175020403353143435, guid: 602bb4b160420c74895179eba069b972,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
+      value: Meta_Game.Workshop, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 1175020403353143435, guid: 602bb4b160420c74895179eba069b972,
+        type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_IntArgument
-      value: 25
+      value: 26
       objectReference: {fileID: 0}
     - target: {fileID: 1175020403353143435, guid: 602bb4b160420c74895179eba069b972,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_IntArgument
-      value: 25
+      value: 26
       objectReference: {fileID: 0}
     - target: {fileID: 1175020403353143435, guid: 602bb4b160420c74895179eba069b972,
         type: 3}
@@ -17639,6 +17781,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
       value: ChooseInteriorItem
+      objectReference: {fileID: 0}
+    - target: {fileID: 1175020403353143435, guid: 602bb4b160420c74895179eba069b972,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: Meta_Game.Workshop, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 1175020403353143435, guid: 602bb4b160420c74895179eba069b972,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
+      value: Meta_Game.Workshop, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 1175020403353143435, guid: 602bb4b160420c74895179eba069b972,
         type: 3}
@@ -18814,7 +18966,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1487243693199497891}
-        m_TargetAssemblyTypeName: 
+        m_TargetAssemblyTypeName: Meta_Game.Workshop, Assembly-CSharp
         m_MethodName: BackToWorkshop
         m_Mode: 1
         m_Arguments:
@@ -21529,12 +21681,12 @@ PrefabInstance:
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 1487243693199497891}
+      objectReference: {fileID: 0}
     - target: {fileID: 1175020403353143435, guid: 602bb4b160420c74895179eba069b972,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Target
       value: 
-      objectReference: {fileID: 1487243693199497891}
+      objectReference: {fileID: 0}
     - target: {fileID: 1175020403353143435, guid: 602bb4b160420c74895179eba069b972,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
@@ -24364,6 +24516,16 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1175020403353143435, guid: 602bb4b160420c74895179eba069b972,
         type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: Meta_Game.Workshop, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 1175020403353143435, guid: 602bb4b160420c74895179eba069b972,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
+      value: Meta_Game.Workshop, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 1175020403353143435, guid: 602bb4b160420c74895179eba069b972,
+        type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_IntArgument
       value: 1
       objectReference: {fileID: 0}
@@ -25245,6 +25407,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
       value: ChooseInteriorItem
+      objectReference: {fileID: 0}
+    - target: {fileID: 1175020403353143435, guid: 602bb4b160420c74895179eba069b972,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: Meta_Game.Workshop, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 1175020403353143435, guid: 602bb4b160420c74895179eba069b972,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
+      value: Meta_Game.Workshop, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 1175020403353143435, guid: 602bb4b160420c74895179eba069b972,
         type: 3}
@@ -27946,13 +28118,23 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1175020403353143435, guid: 602bb4b160420c74895179eba069b972,
         type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: Meta_Game.Workshop, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 1175020403353143435, guid: 602bb4b160420c74895179eba069b972,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
+      value: Meta_Game.Workshop, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 1175020403353143435, guid: 602bb4b160420c74895179eba069b972,
+        type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_IntArgument
-      value: 13
+      value: 14
       objectReference: {fileID: 0}
     - target: {fileID: 1175020403353143435, guid: 602bb4b160420c74895179eba069b972,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_IntArgument
-      value: 13
+      value: 14
       objectReference: {fileID: 0}
     - target: {fileID: 1175020403353143435, guid: 602bb4b160420c74895179eba069b972,
         type: 3}
@@ -30617,6 +30799,16 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1175020403353143435, guid: 602bb4b160420c74895179eba069b972,
         type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: Meta_Game.Workshop, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 1175020403353143435, guid: 602bb4b160420c74895179eba069b972,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
+      value: Meta_Game.Workshop, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 1175020403353143435, guid: 602bb4b160420c74895179eba069b972,
+        type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_IntArgument
       value: 8
       objectReference: {fileID: 0}
@@ -31497,7 +31689,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1487243693199497891}
-        m_TargetAssemblyTypeName: 
+        m_TargetAssemblyTypeName: Meta_Game.Workshop, Assembly-CSharp
         m_MethodName: OpenInteriorShopPanel
         m_Mode: 3
         m_Arguments:
@@ -32152,13 +32344,23 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1175020403353143435, guid: 602bb4b160420c74895179eba069b972,
         type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: Meta_Game.Workshop, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 1175020403353143435, guid: 602bb4b160420c74895179eba069b972,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
+      value: Meta_Game.Workshop, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 1175020403353143435, guid: 602bb4b160420c74895179eba069b972,
+        type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_IntArgument
-      value: 21
+      value: 22
       objectReference: {fileID: 0}
     - target: {fileID: 1175020403353143435, guid: 602bb4b160420c74895179eba069b972,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_IntArgument
-      value: 21
+      value: 22
       objectReference: {fileID: 0}
     - target: {fileID: 1175020403353143435, guid: 602bb4b160420c74895179eba069b972,
         type: 3}
@@ -33309,6 +33511,16 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1175020403353143435, guid: 602bb4b160420c74895179eba069b972,
         type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: Meta_Game.Workshop, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 1175020403353143435, guid: 602bb4b160420c74895179eba069b972,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
+      value: Meta_Game.Workshop, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 1175020403353143435, guid: 602bb4b160420c74895179eba069b972,
+        type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_IntArgument
       value: 6
       objectReference: {fileID: 0}
@@ -34087,13 +34299,23 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1175020403353143435, guid: 602bb4b160420c74895179eba069b972,
         type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: Meta_Game.Workshop, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 1175020403353143435, guid: 602bb4b160420c74895179eba069b972,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
+      value: Meta_Game.Workshop, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 1175020403353143435, guid: 602bb4b160420c74895179eba069b972,
+        type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_IntArgument
-      value: 18
+      value: 19
       objectReference: {fileID: 0}
     - target: {fileID: 1175020403353143435, guid: 602bb4b160420c74895179eba069b972,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_IntArgument
-      value: 18
+      value: 19
       objectReference: {fileID: 0}
     - target: {fileID: 1175020403353143435, guid: 602bb4b160420c74895179eba069b972,
         type: 3}
@@ -35207,6 +35429,16 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1175020403353143435, guid: 602bb4b160420c74895179eba069b972,
         type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: Meta_Game.Workshop, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 1175020403353143435, guid: 602bb4b160420c74895179eba069b972,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
+      value: Meta_Game.Workshop, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 1175020403353143435, guid: 602bb4b160420c74895179eba069b972,
+        type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_IntArgument
       value: 11
       objectReference: {fileID: 0}
@@ -35784,13 +36016,23 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1175020403353143435, guid: 602bb4b160420c74895179eba069b972,
         type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: Meta_Game.Workshop, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 1175020403353143435, guid: 602bb4b160420c74895179eba069b972,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
+      value: Meta_Game.Workshop, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 1175020403353143435, guid: 602bb4b160420c74895179eba069b972,
+        type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_IntArgument
-      value: 24
+      value: 25
       objectReference: {fileID: 0}
     - target: {fileID: 1175020403353143435, guid: 602bb4b160420c74895179eba069b972,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_IntArgument
-      value: 24
+      value: 25
       objectReference: {fileID: 0}
     - target: {fileID: 1175020403353143435, guid: 602bb4b160420c74895179eba069b972,
         type: 3}
@@ -36276,6 +36518,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
       value: ChooseInteriorItem
+      objectReference: {fileID: 0}
+    - target: {fileID: 1175020403353143435, guid: 602bb4b160420c74895179eba069b972,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: Meta_Game.Workshop, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 1175020403353143435, guid: 602bb4b160420c74895179eba069b972,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
+      value: Meta_Game.Workshop, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 1175020403353143435, guid: 602bb4b160420c74895179eba069b972,
         type: 3}
@@ -38079,17 +38331,27 @@ PrefabInstance:
     - target: {fileID: 1175020403353143435, guid: 602bb4b160420c74895179eba069b972,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
-      value: BuyInteriorItem
+      value: ChooseInteriorItem
+      objectReference: {fileID: 0}
+    - target: {fileID: 1175020403353143435, guid: 602bb4b160420c74895179eba069b972,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: Meta_Game.Workshop, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 1175020403353143435, guid: 602bb4b160420c74895179eba069b972,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
+      value: Meta_Game.Workshop, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 1175020403353143435, guid: 602bb4b160420c74895179eba069b972,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_IntArgument
-      value: 23
+      value: 24
       objectReference: {fileID: 0}
     - target: {fileID: 1175020403353143435, guid: 602bb4b160420c74895179eba069b972,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_IntArgument
-      value: 23
+      value: 24
       objectReference: {fileID: 0}
     - target: {fileID: 1175020403353143435, guid: 602bb4b160420c74895179eba069b972,
         type: 3}
@@ -42539,7 +42801,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1487243693199497891}
-        m_TargetAssemblyTypeName: 
+        m_TargetAssemblyTypeName: Meta_Game.Workshop, Assembly-CSharp
         m_MethodName: OpenInteriorShopPanel
         m_Mode: 3
         m_Arguments:
@@ -43200,6 +43462,12 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 2962972209429483052, guid: 602bb4b160420c74895179eba069b972,
     type: 3}
   m_PrefabInstance: {fileID: 1408565422}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &2029532846 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2962972209429483052, guid: 602bb4b160420c74895179eba069b972,
+    type: 3}
+  m_PrefabInstance: {fileID: 410555816}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &2034000263
 GameObject:
@@ -45584,13 +45852,23 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1175020403353143435, guid: 602bb4b160420c74895179eba069b972,
         type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: Meta_Game.Workshop, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 1175020403353143435, guid: 602bb4b160420c74895179eba069b972,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
+      value: Meta_Game.Workshop, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 1175020403353143435, guid: 602bb4b160420c74895179eba069b972,
+        type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_IntArgument
-      value: 22
+      value: 23
       objectReference: {fileID: 0}
     - target: {fileID: 1175020403353143435, guid: 602bb4b160420c74895179eba069b972,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_IntArgument
-      value: 22
+      value: 23
       objectReference: {fileID: 0}
     - target: {fileID: 1175020403353143435, guid: 602bb4b160420c74895179eba069b972,
         type: 3}
@@ -51549,7 +51827,7 @@ GameObject:
   - component: {fileID: 1487243693199497892}
   - component: {fileID: 1487243693199497891}
   m_Layer: 5
-  m_Name: Workshop
+  m_Name: Workshop UI
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -51597,6 +51875,7 @@ MonoBehaviour:
   - {fileID: 200835838}
   - {fileID: 441138597}
   - {fileID: 300681674}
+  - {fileID: 346922032}
   - {fileID: 2133260745517815898}
   - {fileID: 1404373379}
   - {fileID: 1661615270}
@@ -52300,7 +52579,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1487243693199497891}
-        m_TargetAssemblyTypeName: 
+        m_TargetAssemblyTypeName: Meta_Game.Workshop, Assembly-CSharp
         m_MethodName: OpenInteriorShopPanel
         m_Mode: 3
         m_Arguments:
@@ -52356,7 +52635,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1487243693199497891}
-        m_TargetAssemblyTypeName: 
+        m_TargetAssemblyTypeName: Meta_Game.Workshop, Assembly-CSharp
         m_MethodName: OpenInteriorShopPanel
         m_Mode: 3
         m_Arguments:
@@ -52412,7 +52691,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1487243693199497891}
-        m_TargetAssemblyTypeName: 
+        m_TargetAssemblyTypeName: Meta_Game.Workshop, Assembly-CSharp
         m_MethodName: OpenInteriorShopPanel
         m_Mode: 3
         m_Arguments:
@@ -52468,7 +52747,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1487243693199497891}
-        m_TargetAssemblyTypeName: 
+        m_TargetAssemblyTypeName: Meta_Game.Workshop, Assembly-CSharp
         m_MethodName: OpenInteriorShopPanel
         m_Mode: 3
         m_Arguments:
@@ -52524,7 +52803,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1487243693199497891}
-        m_TargetAssemblyTypeName: 
+        m_TargetAssemblyTypeName: Meta_Game.Workshop, Assembly-CSharp
         m_MethodName: OpenInteriorShopPanel
         m_Mode: 3
         m_Arguments:
@@ -52580,7 +52859,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1487243693199497891}
-        m_TargetAssemblyTypeName: 
+        m_TargetAssemblyTypeName: Meta_Game.Workshop, Assembly-CSharp
         m_MethodName: OpenInteriorShopPanel
         m_Mode: 3
         m_Arguments:
@@ -52636,7 +52915,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1487243693199497891}
-        m_TargetAssemblyTypeName: 
+        m_TargetAssemblyTypeName: Meta_Game.Workshop, Assembly-CSharp
         m_MethodName: OpenInteriorShopPanel
         m_Mode: 3
         m_Arguments:
@@ -52692,7 +52971,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1487243693199497891}
-        m_TargetAssemblyTypeName: 
+        m_TargetAssemblyTypeName: Meta_Game.Workshop, Assembly-CSharp
         m_MethodName: OpenInteriorShopPanel
         m_Mode: 3
         m_Arguments:
@@ -52748,7 +53027,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1487243693199497891}
-        m_TargetAssemblyTypeName: 
+        m_TargetAssemblyTypeName: Meta_Game.Workshop, Assembly-CSharp
         m_MethodName: OpenInteriorShopPanel
         m_Mode: 3
         m_Arguments:
@@ -60989,6 +61268,16 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1175020403353143435, guid: 602bb4b160420c74895179eba069b972,
         type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: Meta_Game.Workshop, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 1175020403353143435, guid: 602bb4b160420c74895179eba069b972,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
+      value: Meta_Game.Workshop, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 1175020403353143435, guid: 602bb4b160420c74895179eba069b972,
+        type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
       value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
@@ -65369,7 +65658,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1487243693199497891}
-        m_TargetAssemblyTypeName: 
+        m_TargetAssemblyTypeName: Meta_Game.Workshop, Assembly-CSharp
         m_MethodName: OpenWorkshop
         m_Mode: 1
         m_Arguments:
